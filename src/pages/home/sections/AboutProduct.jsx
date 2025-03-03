@@ -1,4 +1,6 @@
 import React from "react";
+import Akokor from "../../../../public/images/Akokor4.jpg"
+import Fowl from "../../../../public/images/Akokor3.jpg";
 
 const AboutProduct = () => {
   const productDetails = {
@@ -36,15 +38,30 @@ const AboutProduct = () => {
   };
 
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-      <div className="max-w-7xl mx-auto">
+    <div className="relative py-16 px-4 sm:px-6 lg:px-8">
+      {/* Background Image with Overlay */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `url(${Fowl})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed',
+        }}
+      >
+        {/* Overlay */}
+        {/* <div className="absolute inset-0 bg-white opacity-95"></div> */}
+        <div className="absolute inset-0  opacity-95"></div>
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold font-poppins text-gray-800 mb-4">
+          <h2 className="text-4xl font-bold font-poppins text-white mb-4">
             {productDetails.name}
           </h2>
           <div className="h-1 w-24 bg-[#FFC107] mx-auto mb-6"></div>
-          <p className="max-w-3xl mx-auto text-lg font-opensans text-gray-600">
+          <p className="max-w-3xl mx-auto text-lg font-opensans text-black font-bold">
             {productDetails.description}
           </p>
         </div>

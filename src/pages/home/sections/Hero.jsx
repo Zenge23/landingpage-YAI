@@ -1,8 +1,18 @@
-import Akokor from "../../../../public/images/akokor.jpg"
+// import Akokor from "../../../../public/images/akokor.jpg";
+import Akokor from "../../../../public/images/Akokor1.jpg"
+const HeroImage = () => (
+  <div className="relative">
+    <img
+      src={Akokor}
+      alt="Chicks Brooder"
+      className="w-full h-full object-cover opacity-70"
+    />
+  </div>
+);
 
 const Hero = () => {
   return (
-    <div className="relative bg-gray-50 h-[90vh]">
+    <div className="relative bg-gray-50 min-h-[90vh]"> {/* Changed h-[90vh] to min-h-[90vh] */}
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[#FFC107] opacity-10 pattern-dots"></div>
 
@@ -17,7 +27,7 @@ const Hero = () => {
               <span className="text-[#28A745]">Stronger Chicks!</span>
             </h1>
             
-            <p className="text-xl font-opensans text-gray-600 mb-8 max-w-2xl">
+            <p className="text-xl font-opensans text-gray-600 mb-8 max-w-2xl bg-transparent">
               Revolutionizing small-scale poultry farming with our innovative
               solar-powered brooder box system. Ensure optimal temperature control
               and improve chick survival rates.
@@ -60,7 +70,7 @@ const Hero = () => {
           {/* Right Column - Image/Illustration Placeholder */}
           <div className="flex-1 flex justify-center lg:justify-end">
             <div className="w-full max-w-md h-[400px] bg-opacity-20 rounded-lg flex items-center justify-center">
-              <img src={Akokor} alt="Brooder Box" className="w-full h-full object-cover rounded-lg" />
+              <img src={Akokor } alt="Brooder Box" className="w-full h-full object-cover rounded-lg" />
               
             </div>
           </div>
