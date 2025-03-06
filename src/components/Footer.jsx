@@ -5,7 +5,7 @@ const Footer = () => {
     contact: {
       title: "Contact Us",
       items: [
-        "Bono East Region, Ghana",
+        "Brigade,Kintampo North,Ghana",
         "ebanahee@gmail.com",
         "+233 54 063 7441",
       ],
@@ -22,10 +22,10 @@ const Footer = () => {
     social: {
       title: "Follow Us",
       items: [
-        { name: "Facebook", href: "#" },
-        { name: "WhatsApp", href: "#" },
-        { name: "YouTube", href: "#" },
-        { name: "TikTok", href: "#" },
+        { name: "Facebook", href: "https://web.facebook.com/profile.php?id=61573521362686" },
+        { name: "WhatsApp", href: "https://wa.me/233540637441" },
+        { name: "Instagram", href: "https://www.instagram.com/chicksbroodersolutions/" },
+        { name: "TikTok", href: "https://www.tiktok.com/@chicks.brooder.so?_t=ZM-8uBoPdY2O0r&_r=1" },
       ],
     },
   };

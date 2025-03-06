@@ -87,7 +87,7 @@ const AboutProduct = () => {
         </div>
 
         {/* Benefits Section */}
-        <div className="bg-gray-50 rounded-lg p-8">
+        <div id="benefits" className="bg-gray-50 rounded-lg p-8">
           <h3 className="text-2xl font-poppins font-bold text-gray-800 mb-6 text-center">
             Key Benefits
           </h3>

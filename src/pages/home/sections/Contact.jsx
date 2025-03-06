@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <div id="contact" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -73,7 +73,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold mb-1">Email</h4>
-                  <p className="text-gray-600">info@chicksbrooder.com</p>
+                  <p className="text-gray-600">ebanahee@gmail.com</p>
                 </div>
               </div>
 
