@@ -42,7 +42,7 @@ const Hero = () => {
                 Explore Products
               </a>
               <a
-                href="mailto:info@akokor.com"
+                href="mailto:ebanahee@gmail.com"
                 className="px-8 py-3 border-2 border-white text-white font-opensans rounded-full hover:bg-white hover:text-black transition-all duration-300 text-lg font-bold"
               >
                 Contact Us
