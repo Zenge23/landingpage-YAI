@@ -1,5 +1,5 @@
 import React from "react";
-import Akokor from "../../../../public/images/Akokor4.jpg"
+// import Akokor from "../../../../public/images/Akokor4.jpg"
 import Fowl from "../../../../public/images/Akokor3.jpg";
 
 const AboutProduct = () => {

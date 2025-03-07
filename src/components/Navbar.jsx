@@ -18,7 +18,7 @@ const Navbar = () => {
           {/* Logo and Brand Name */}
           <div className="flex items-center">
             <h1 className="text-2xl font-bold font-poppins text-gray-800">
-              Chicks Brooder Solutions n
+              Chicks Brooder Solutions 
             </h1>
           </div>
 
