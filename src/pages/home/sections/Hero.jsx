@@ -2,7 +2,7 @@ import Akokor from "../../../../public/images/Akokor1.jpg"
 
 const Hero = () => {
   return (
-    <div className="relative min-h-[90vh]">
+    <div className="relative min-h-[100vh]">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0"
@@ -35,14 +35,14 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-              <a
+              {/* <a
                 href="/products"
                 className="px-8 py-3 bg-[#FFC107] text-black font-opensans rounded-full hover:bg-[#FFC107]/80 transition-colors duration-300 text-lg font-bold"
               >
                 Explore Products
-              </a>
+              </a> */}
               <a
-                href="mailto:ebanahee@gmail.com"
+                href="https://wa.me/233540637441"
                 className="px-8 py-3 border-2 border-white text-white font-opensans rounded-full hover:bg-white hover:text-black transition-all duration-300 text-lg font-bold"
               >
                 Contact Us
