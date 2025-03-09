@@ -17,6 +17,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo and Brand Name */}
           <div className="flex items-center">
+            <img src= "/project logo.jpeg" alt="Logo" className="w-10 h-10 mr-2" />
             <h1 className="text-2xl font-bold font-poppins text-gray-800">
               Chicks Brooder Solutions 
             </h1>
