@@ -13,10 +13,10 @@ const Footer = () => {
     quickLinks: {
       title: "Quick Links",
       items: [
-        { name: "Products", href: "/products" },
-        { name: "Benefits", href: "/benefits" },
-        { name: "Success Stories", href: "/stories" },
-        { name: "Contact", href: "/contact" },
+        { name: "Products", href: "#products" },
+        { name: "Benefits", href: "#benefits" },
+        { name: "Success Stories", href: "#stories" },
+        { name: "Contact", href: "#contact" },
       ],
     },
     social: {

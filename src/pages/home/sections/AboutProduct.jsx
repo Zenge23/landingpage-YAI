@@ -5,8 +5,7 @@ import Fowl from "../../../../public/images/Akokor3.jpg";
 const AboutProduct = () => {
   const productDetails = {
     name: "Solar-Powered Chicks Brooder Box",
-    description:
-      "An innovative, temperature-controlled brooder box that provides consistent heat for day-old chicks using solar or electric power. The system ensures optimal warmth, reducing mortality rates and improving poultry productivity.",
+    description: "An innovative, temperature-controlled brooder box that provides consistent heat for day-old chicks using solar or electric power. The system ensures optimal warmth, reducing mortality rates and improving poultry productivity.",
     usps: [
       {
         title: "Dual Power Mode",
@@ -50,8 +49,7 @@ const AboutProduct = () => {
         }}
       >
         {/* Overlay */}
-        {/* <div className="absolute inset-0 bg-white opacity-95"></div> */}
-        <div className="absolute inset-0  opacity-95"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
@@ -61,7 +59,7 @@ const AboutProduct = () => {
             {productDetails.name}
           </h2>
           <div className="h-1 w-24 bg-[#FFC107] mx-auto mb-6"></div>
-          <p className="max-w-3xl mx-auto text-lg font-opensans text-black font-bold">
+          <p className="max-w-3xl mx-auto text-lg font-opensans text-gray-200">
             {productDetails.description}
           </p>
         </div>
@@ -71,7 +69,7 @@ const AboutProduct = () => {
           {productDetails.usps.map((usp, index) => (
             <div
               key={index}
-              className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
             >
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 bg-[#28A745] rounded-full flex items-center justify-center mr-4">
@@ -87,7 +85,7 @@ const AboutProduct = () => {
         </div>
 
         {/* Benefits Section */}
-        <div id="benefits" className="bg-gray-50 rounded-lg p-8">
+        <div id="benefits" className="bg-white/90 backdrop-blur-sm rounded-lg p-8">
           <h3 className="text-2xl font-poppins font-bold text-gray-800 mb-6 text-center">
             Key Benefits
           </h3>

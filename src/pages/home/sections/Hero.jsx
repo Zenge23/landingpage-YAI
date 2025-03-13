@@ -3,7 +3,7 @@ import Akokor from "../../../../public/images/Akokor1.jpg"
 const Hero = () => {
   return (
     <div className="relative min-h-[100vh]">
-      {/* Background Image with Overlay */}
+      {/* Background Image with Darker Overlay */}
       <div 
         className="absolute inset-0 z-0"
         style={{
@@ -13,8 +13,8 @@ const Hero = () => {
           backgroundAttachment: 'fixed',
         }}
       >
-        {/* Overlay - adjusted opacity */}
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+        {/* Darker Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50"></div>
       </div>
 
       {/* Main Content */}
